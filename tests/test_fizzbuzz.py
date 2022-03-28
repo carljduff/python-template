@@ -1,4 +1,9 @@
 import pytest
+from fizzbuzz.fizzbuzz import fizzBuzz
+
+def test_callFizzBuzz():
+    assert fizzBuzz
+
 
 # - Can I call FizzBuzz
 # - Get "1" when pass in 1
